@@ -98,7 +98,7 @@ ScreenManager:
         Button:
             id: goals_button
             text: 'Trainingsziele'
-            pos_hint: {'center_x': 0,5 'center_y': 0.25}
+            pos_hint: {'center_x': 0.5, 'center_y': 0.25}
             on_release: app.dropdown.open(self)
            
 
